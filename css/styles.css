@@ -96,4 +96,10 @@ p {
   h2 {
     font-size: 32px;
   }
+  .projects {
+    text-align: center;
+  }
+  .projects a {
+    padding: 20px 170px;
+  }
 }
