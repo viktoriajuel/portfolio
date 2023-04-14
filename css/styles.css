@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 64px;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background: var(--secondary-color);
@@ -63,6 +63,16 @@ p {
   color: var(--dark-color);
 }
 
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  background: white;
+  color: var(--primary-color);
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -89,18 +99,20 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
   h1 {
     font-size: 48px;
     margin: 8px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 44px;
   }
-  .projects {
+  .project-description {
+    padding: 0;
     text-align: center;
-  }
-  .projects a {
-    padding: 20px 170px;
   }
 }
