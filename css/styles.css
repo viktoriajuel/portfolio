@@ -29,12 +29,19 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 
+footer {
+  margin: 60px 0;
+}
 .navbar {
   font-family: var(--default-font-family);
   font-size: 14px;
@@ -119,6 +126,41 @@ p {
   padding: 120px 60px;
 }
 
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+.contact-link {
+  text-decoration: none;
+  color: #272142;
+}
+
+.contact-link:hover {
+  cursor: pointer;
+  color: #6c63ff;
+}
+
+.social-links a {
+  margin: 0 20px;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+}
+
+.social-links a:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -127,6 +169,14 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 24px;
   }
 
   .hero {
@@ -141,5 +191,9 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  .contact-box {
+    padding: 30px;
   }
 }
