@@ -59,23 +59,34 @@ p {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content {
+  margin: 30px;
+}
+
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.content-container img {
-  border-radius: 10px;
-  max-width: 100%;
+.content h3 {
+  font-size: 24px;
+  margin: 0;
+  font-family: var(--default-font-family);
 }
 
-.content {
-  margin: 30px;
+.content p {
+  font-size: 14px;
+  font-weight: thin;
+}
+
+.content img {
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .btn-branding {
@@ -96,7 +107,7 @@ p {
   padding: 15px 30px;
 }
 
-.project-desciption {
+.project-description {
   padding: 120px 60px;
 }
 
@@ -114,7 +125,7 @@ p {
     padding: 80px 20px;
   }
 
-  .project-desciption {
+  .project-description {
     padding: 0;
     text-align: center;
   }
