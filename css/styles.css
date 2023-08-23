@@ -64,7 +64,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 
 .content {
@@ -92,7 +92,7 @@ p {
   font-weight: thin;
 }
 
-.content img {
+.content-container img {
   border-radius: 10px;
   max-width: 100%;
 }
